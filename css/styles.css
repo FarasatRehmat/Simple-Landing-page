@@ -1,0 +1,212 @@
+/*navbar styling*/
+#nav{
+	position: relative;
+	background-image: url(../img/bg.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*logo of navbar*/
+.log img{
+	height: 50px;
+}
+/*styling of navbar icons*/
+.li img{
+	height: 20px;
+}
+/*styling of navbar lists*/
+.li ul li{
+	background-color: transparent;
+	border:none;
+	padding: 10px 2px;
+}
+/*styling of navbars dropdowns button*/
+.li ul .btn{
+	font-size: 13px;
+}
+/*styling of btn focus*/
+.li ul .btn:focus{
+	box-shadow:0px 0px 5px red !important;
+}
+/*styling of navbars lists a tag*/
+.li ul li a{
+	text-decoration: none
+}
+/*styling of 1st slider*/
+#slide{
+	position: relative;
+	height: 550px;
+	background-image: url(../img/bg.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*styling of 1st sliders alpha*/
+.alpha{
+	background-color: rgba(0,0,0,0.8);
+}
+/*styling of 1st sliders cards*/
+.ca .card{
+	background-color: transparent;
+}
+/*button of 1st slider*/
+button.but1:focus{
+	box-shadow: 0px 0px 10px red !important;
+}
+img.imge{
+	height: 40px;
+}
+/*styling of section of icons*/
+#bla{
+	background-color: black;
+}
+/*styling of icons image*/
+.in img{
+	width: 40px;
+}
+/*styling of icons image*/
+.ini img{
+	width: 30px;
+}
+/*styling of icon image and text*/
+.in{
+	display: inline-block;
+}
+.ini{
+	display: inline-block;
+}
+.in1{
+	display: inline-block;
+}
+.in1 p{
+	font-size: 10px;
+}
+/*styling of border of icons*/
+.bor{
+	border-left: 1px solid rgba(71, 64, 64, 1); 
+	height: 70px;
+}
+.in2{
+	display: inline-block;
+}
+.in2 p{
+	font-size: 10px;
+}
+/*styling of icons and text ends here*/
+/*styling of hr of section of ext and form*/
+.txt hr{
+	width: 50px;
+	border:1px solid black;
+	margin-left: 0px; 
+	border-radius: 30px;
+}
+/*styling of top border of text of text & form*/
+.bord{
+	width: 90%;
+	border-top:1px solid rgba(71, 64, 64, 0.28);
+}
+.bord p{
+	font-size: 12px;
+}
+/*shadow of div of forms*/
+.sha{
+	box-shadow: 0px 0px 5px black;
+	border-radius: 5px;
+}
+/*styling of forms input*/
+input.input1{
+	box-shadow: 1px 1px 5px black;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+input.input2{
+	margin-left: 25%;
+	box-shadow: -1px 1px 5px black;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+/*styling of inputs focus state*/
+input:focus{
+	box-shadow: 0px 0px 10px black !important;
+}
+/*styling of forms submit button*/
+.bt .btn{
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px black;
+}
+/*styling of btn focus*/
+.bt .btn:focus{
+	box-shadow: 0px 0px 10px black !important;
+}
+/*styling of hr of img box of work*/
+.hr hr{
+	width: 30px;
+	border:1px solid black;
+	margin-left: 0px; 
+	border-radius: 30px;
+}
+.nav-link.active, 
+.nav-pills .show > .nav-link{
+	background-color: rgba(48, 48, 48, 0.47) !important;
+}
+button.but:focus{
+	box-shadow: none;
+}
+button.but:hover{
+	color: red;
+}
+/*styling of button active*/
+button.but:active{
+	box-shadow: 0px 0px 5px black !important;
+}
+/*styling of 2nd slider*/
+#slide1{
+	position: relative;
+	height: 300px;
+	background-image: url(../img/bg.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*styling of input of 2nd slider*/
+#slide1 input{
+	margin-left: 230px;
+}
+/*input focus*/
+#slide1 input:focus{
+	border-color:red;
+}
+/*styling of footer*/
+#foot{
+	background-color: black;
+}
+/*styling of footers hr*/
+.hh hr{
+	border:1px solid rgba(54, 54, 54, 1);
+}
+/*styling of footers input*/
+.inpu1 input{
+	background-color: transparent;
+	border-color: rgba(48, 48, 48, 1); 
+}
+/*input focus*/
+.inpu1 input:focus{
+	background-color: transparent;
+	border-color: red; 
+}
+/*styling of footers textarea*/
+.inpu1 textarea{
+	background-color: transparent;
+	border-color: rgba(48, 48, 48, 1); 
+}
+/*textarea focus*/
+.inpu1 textarea:focus{
+	background-color: transparent;
+	border-color: red; 
+	box-shadow: none;
+}
+button.bu:focus{
+	box-shadow:0px 0px 10px red !important;
